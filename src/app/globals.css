@@ -2,32 +2,185 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*{
+  padding: 0px;
+  margin: 0px;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: rgb(28, 38, 38);
+  color: white;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.logo{
+  font-size: 35px;
+  color: cadetblue;
+  padding-left: 20px;
+}
+ul{
+display: flex;
+gap: 20px;
+font-size: 20px;
+padding: 10px;}
+
+
+.link{
+  color: pink;
+
+}
+.link:hover {
+  color: palevioletred;
+}
+.btn{
+  padding: 15px;
+}
+.bt:hover{
+  color: cadetblue;
+  background-color: pink;
+}
+ 
+
+.hero{
+  display: flex;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+.img-div{
+  width: 400px;
+  height: 400px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.info-div{
+  margin-left: 150px;
+}
+
+h1{
+  font-size: 70px;
+}
+
+.btn2{
+  display: flex;
+  gap: 30px;
+
+}
+.bt{
+  padding: 10px;
+  font-size: medium;
+  background-color: cadetblue; 
+  border: 2px solid;
+  color: white;
+  border-radius: 2px;
+  width: 150px;
+  height: 50px;
+} 
+
+.name{
+  color: cadetblue ;
+ font-weight: 800;
+ font-style: italic;
+  
+}
+
+.img1{
+  text-align: center; /* Center the text inside the container */
+  padding: 10px; 
+  display: block; /* Make the image behave like a block element */
+  margin-left: auto; /* Auto margins on both sides to center the image */
+  margin-right: auto;
+  border-radius: 50%;
+
+
+}
+
+.heading {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: cadetblue;
+  font:bold;
+  text-decoration: underline;
+
+  
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.skill-h2{
+  font-size: 30px;
+  text-align: left;
+  margin: 20px;
+  color: white;
+  margin-left: 10%;
+}
+
+
+.bar{
+  margin-left: 10%;
+  height: 20px;
+  background-color: green;
+  width: 350px;
+  border-radius: 20px;
+}
+
+.bar1{
+  margin-left: 10%;
+  height: 20px;
+  background-color: rgb(184, 184, 59);
+  width: 450px;
+  border-radius: 20px;
+}
+
+
+.bar2{
+  margin-left: 10%;
+  height: 20px;
+  background-color: red;
+  width: 250px;
+  border-radius: 20px;
+}
+
+.bar3{
+  margin-left: 10%;
+  height: 20px;
+  background-color: rgb(37, 229, 243);
+  width: 450px;
+  border-radius: 20px;
+}
+
+.bar4{
+  margin-left: 10%;
+  height: 20px;
+  background-color: rgb(221, 31, 167);
+  width: 300px;
+  border-radius: 20px;
+}
+
+.bar5{
+  margin-left: 10%;
+  height: 20px;
+  background-color: paleturquoise;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.logo{
+  color: bisque;
+  background-color: cadetblue;
+  border-radius: 50px;
+  font-weight: 600;
+ border: solid;
+padding: 12px;
 }
