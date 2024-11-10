@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='nav'>
       <div className='logo'>
-      <h2>IQRA IKRAM</h2>
+      <h2>BJ</h2>
       </div>
       
 
@@ -13,14 +13,15 @@ const Navbar = () => {
       <div className='navigate'>
         <ul className='navigate'>
             <li><Link href= "/" className='link' >Home</Link></li>
-           <li><Link href= "/about" className='link'>About</Link></li>
-           <li><Link href= "/skills" className='link' >Skills</Link></li>
-           <li><Link href= "/contact" className='link'>Contact</Link></li>
+           <li><Link href= "/about" className='link'>About Us</Link></li>
+           <li><Link href= "/contact" className='link'>Contact Us</Link></li>
+           <li><Link href= "/Product" className='link'>Product</Link></li>
+
         </ul>
       </div>
       <div className='btn'>
         <button className='bt'>
-            Download Cv
+          Get More
         </button>
       </div>
     </div>

@@ -3,16 +3,20 @@ import React from 'react';
 const page = () => {
   return (
     <div>
-      <h1 className='heading'> About Me</h1>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwr6-3mgdHcpiVlG9abx1LdjPJLstDqx27hw&s" alt="" width="200" height="200" className='img1' />
-   <h2> </h2>
-   <p>I am currently a student at the Global Institute of Artificial Intelligence and Computing (GIAIC),<br />
-    where I am honing my skills in web development. With a strong passion for technology and problem-solving,<br />
-    I am learning to create dynamic, user-friendly websites and applications. <br />
-     My studies at GIAIC have provided me with a solid foundation in front-end and back-end development, <br />
-      and I am continuously building on my knowledge of HTML, CSS, JavaScript, and various web technologies.  <br />
-      As I progress through my education, I am excited to expand my skill set and apply my learning to real-world projects. <br />
-       My goal is to combine creativity with technical expertise to build seamless, innovative digital experiences.
+      <h1 className='heading'> About Us</h1>
+     
+   
+   <p className='p'>At Bon Jezzie, we believe that a fragrance is more than just a scent <br />
+    it’s an experience, a statement, and a reflection of your individuality. <br /> Proudly recognized as one of the top-tier perfume brands in Pakistan, 
+    we are committed to delivering only the finest quality fragrances that are crafted to perfection. <br /> <br /> <br /> 
+
+Our perfumes are carefully curated with premium ingredients sourced from around the world, <br /> 
+ ensuring every bottle encapsulates the essence of sophistication and elegance. <br />  
+  We work with renowned perfumers and utilize cutting-edge fragrance technology to create captivating scents that evoke emotion, ignite memories, and leave a lasting impression. <br /> 
+
+What sets us apart is not just our dedication to luxury and refinement, <br />
+ but our commitment to making these exceptional fragrances accessible to everyone. <br /> 
+  Whether you're searching for a bold, seductive scent or something fresh and invigorating, Bon Jezzie offers a wide range of perfumes that suit every personality and occasion.
 
 </p>
     </div>
